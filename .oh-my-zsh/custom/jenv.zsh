@@ -1,6 +1,7 @@
 # jenv
 
 # from $(jenv init -) without PATH, already included
+mkdir -p /opt/jenv/completions
 source "/opt/jenv/completions/jenv.zsh"
 
 jenv rehash 2>/dev/null
