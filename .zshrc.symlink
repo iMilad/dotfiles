@@ -121,3 +121,7 @@ alias lag='la | grep'
 # navigation
 alias ..='cd ..'
 
+# add aliases file
+if [ -f ~/.aliases ]; then
+. ~/.aliases
+fi

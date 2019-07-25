@@ -26,11 +26,11 @@ cd ~/.oh-my-zsh/custom/plugins
 
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 
-cd ~/.oh-my-zsh/custom/
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
 # Install nerd-font
 wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+
+cd ~/.oh-my-zsh/custom/
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 cd $DOTFILES_ROOT
 
@@ -44,3 +44,9 @@ ln -s $DOTFILES_ROOT/.config/* ~/.config
 # symlink bin folder
 mkdir ~/bin
 ln -s $DOTFILES_ROOT/bin/* ~/bin
+
+# symlink .oh-my-zsh themes folder
+ln -s $DOTFILES_ROOT/.oh-my-zsh/custom/themes/* ~/.oh-my-zsh/custom/themes
+
+# symlink custom zsh config
+ln -s $DOTFILES_ROOT/.oh-my-zsh/custom/*.zsh ~/.oh-my-zsh/custom
