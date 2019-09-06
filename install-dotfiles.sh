@@ -27,6 +27,7 @@ cd ~/.oh-my-zsh/custom/plugins
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 
 # Install nerd-font (change terminal fonts afterwards to Hack font)
+# https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack/Regular
 cd /usr/share/fonts/
 wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
 fc-cache -f -v
