@@ -31,6 +31,9 @@ cd /usr/share/fonts/
 wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
 fc-cache -f -v
 
+# install bat for cat  (Linux)
+dnf install -y bat
+
 cd ~/.oh-my-zsh/custom/
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
