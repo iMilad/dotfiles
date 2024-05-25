@@ -1,3 +1,36 @@
+# (.)files
+
+## Requirements
+
+Ensure you have the following installed on your system
+
+### Git
+
+```
+brew install git
+```
+
+### Stow
+
+```
+brew install stow
+```
+
+## Installation
+
+First, check out the dotfiles repo in your $HOME directory using git
+
+```
+$ got clone https://github.com/iMilad/dotfiles
+$ cd dotfiles
+```
+
+then use GNU stow to create symlinks
+
+```
+$ stow .
+```
+
 #### Install GitLeaks
 
 source: https://github.com/gitleaks/gitleaks
