@@ -21,7 +21,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
 
-### Nerd Font
+### Nerd Font for terminal that you are using
 ```
 #!/bin/bash
 
@@ -80,3 +80,6 @@ https://github.com/malexer/cheatsheets/blob/master/pyenv.md
 
 ### Install LazyGit
 https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu
+
+### Install terminal theme
+Catpuccin
