@@ -77,3 +77,6 @@ https://github.com/neovim/neovim/blob/master/INSTALL.md
 `curl https://pyenv.run | bash`
 add the configuration to .zshrc
 https://github.com/malexer/cheatsheets/blob/master/pyenv.md
+
+### Install LazyGit
+https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu
