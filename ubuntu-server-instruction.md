@@ -83,3 +83,6 @@ https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu
 
 ### Install terminal theme
 Catpuccin
+
+### Install tmux manager
+https://github.com/tmux-plugins/tpm
