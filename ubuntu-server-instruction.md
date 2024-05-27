@@ -71,3 +71,9 @@ https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation
 
 ### Install NeoVIM
 https://github.com/neovim/neovim/blob/master/INSTALL.md
+
+### install pyenv
+`sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
+`curl https://pyenv.run | bash`
+add the configuration to .zshrc
+https://github.com/malexer/cheatsheets/blob/master/pyenv.md
